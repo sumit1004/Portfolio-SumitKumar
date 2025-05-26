@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Sumit kumar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+    <div id="splash-screen"></div>
+
+    <div id="main-content">
+        <div id="particles-js"></div>
+
+        <header>
+            <div class="navbar">
+                <div class="logo">Sumit Kumar</div>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact me</a></li>
+                    </ul>
+                </nav>
+                <label class="ui-switch">
+                    <input type="checkbox">
+                    <div class="slider">
+                        <div class="circle"></div>
+                    </div>
+                </label>
+            </div>
+        </header>
+        <main>
+            <section class="hero" id="home">
+                <div class="hero-content">
+                    <div class="hero-text fade-in">
+                        <h1 class="slide-up">Hi, I'm</h1>
+                        <h2 class="highlight slide-up-delay">Sumit Kumar</h2>
+                        <div class="typewriter">
+                            <span>I'm a </span>
+                            <span id="typed-text"></span>
+                            <span class="cursor">|</span>
+                        </div>
+                        <p class="intro">Passionate Frontend Developer crafting elegant digital solutions</p>
+                        <div class="cta-buttons">
+                            <a href="#projects" class="btn primary">View Work</a>
+                            <a href="#contact" class="btn secondary">Contact Me</a>
+
+                        </div>
+                        <div class="hero-social">
+                            <a href="https://github.com/sumit1004" target="_blank" aria-label="Github"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/sumit-kumar-685954329" target="_blank"
+                                aria-label="linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/sumit_keshri_04/?utm_source=qr&igsh=MXV6YmRxY2JoN2V0bA%3D%3D#"
+                                target="_blank" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="hero-image fade-in-right">
+
+                        <img src="assets/myimage.jpg" alt="Sumit Kumar">
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <h2 class="section-title fade-in">About Me</h2>
+                <div class="about-container">
+                    <div class="about-left fade-in-left">
+                        <div class="about-img-wrapper">
+                            <img src="assets/myimage.jpg" alt="Sumit Kumar" class="about-img">
+                            <div class="experience-badge">
+                                <span class="years">1+</span>
+                                <span class="text">Years of<br>Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-right fade-in-right">
+                        <h3 class="about-subtitle">Frontend Developer</h3>
+                        <p class="about-description">
+                            I'm a passionate Frontend Developer with a knack for creating elegant digital solutions.
+                            With expertise in both frontend and some backend technologies, I transform complex problems
+                            into
+                            simple, beautiful, and intuitive designs.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-text">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">3</span>
+                                <span class="stat-text">Happy Clients</span>
+                            </div>
+                        </div>
+                        <div class="skills-container">
+                            <h3>Technical Skills</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <i class="fab fa-html5"></i>
+                                    <span>HTML5</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-css3-alt"></i>
+                                    <span>CSS3</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-js"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-react"></i>
+                                    <span>React</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-github"></i>
+                                    <span>Github</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-figma"></i>
+                                    <span>Figma</span>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <h2 class="section-title fade-in">My Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card fade-in-up">
+                        <div class="project-image">
+                            <img src="assets/HealthSync.png" alt="HealthSync Project">
+                            <div class="project-overlay">
+                                <a href="https://github.com/sumit1004/HealthSync-V2" target="_blank"
+                                    class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>HealthSync - Healthcare Management Website</h3>
+                            <p>A healthcare management platform for organizing patient data and streamlining medical
+                                processes.</p>
+
+                            <p>Presented the website at IIT Bhilai Youth Conclave Hackathon 2024 and at IIIT Naya Raipur
+                                Hackathon 2025</p>
+
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <button class="read-more-btn" data-project="healthsync">Read More</button>
+                        </div>
+                    </div>
+
+                    <div class="project-card fade-in-up" style="animation-delay: 0.2s;">
+                        <div class="project-image">
+                            <img src="assets/disasterrelief.png" alt="Disaster Relief Project">
+                            <div class="project-overlay">
+                                <a href="https://github.com/sumit1004/DisasterRelief-FinalVerson" target="_blank"
+                                    class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Disaster Relief Management</h3>
+
+                            <p>Designed and developed a disaster management website to assist relief teams during
+                                emergencies with real-time coordination tools.
+                            </p>
+                            <p>Built within 24 hours as part of the IIIT Naya Raipur E-Summit 2025 Hackathon and
+                                selected for presentation.</p>
+
+                            <div class="project-tech">
+                                <span>TypeScript</span>
+                                <span>Firebase</span>
+                                <span>Maps API</span>
+                            </div>
+                            <button class="read-more-btn" data-project="disaster-relief">Read More</button>
+                        </div>
+                    </div>
+
+                    <div class="project-card fade-in-up" style="animation-delay: 0.4s;">
+                        <div class="project-image">
+                            <img src="assets/infinitymanager.png" alt="Infinity Manager Project">
+                            <div class="project-overlay">
+                                <a href="https://github.com/sumit1004/Tournamentmanagement.infinityesports"
+                                    target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Infinity Manager</h3>
+                            <p>Complete tournament management platform for Infinity Esports gaming club.</p>
+                            <p>Infitymanager is a complete web-based tournament management platform built for Infinity
+                                Esports, the
+                                official gaming club of
+                                [Rungta college of engineering and technology ]. </p>
+
+                            <div class="project-tech">
+                                <span>Typescript</span>
+                                <span>CSS</span>
+                                <span>Firebase</span>
+
+
+                            </div>
+                            <button class="read-more-btn" data-project="infinity-manager">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-section main-info">
+                        <h3>Sumit Kumar</h3>
+                        <p>Frontend Developer crafting digital experiences</p>
+                    </div>
+                    <div class="footer-links-container">
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#skills">Projects</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Connect</h4>
+                            <div class="footer-social">
+                                <a href="https://github.com/sumit1004" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/sumit-kumar-685954329" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/sumit_keshri_04" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right" id="contact">
+                    <div class="contact-form">
+                        <h4>Contact Me</h4>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sumit Kumar. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <!-- Project Popups -->
+        <div class="popup" id="healthsync-popup">
+            <div class="popup-content">
+                <span class="close-popup">&times;</span>
+                <h2>HealthSync - Healthcare Management Website</h2>
+                <video src="assets/HealthSync.mp4" alt="HealthSync Project" loop muted autoplay></video>
+                <div class="popup-details">
+                    <h3>Project Overview</h3>
+                    <p>A comprehensive healthcare management platform built to streamline medical processes and improve
+                        patient care. This project was presented at IIT Bhilai Youth Conclave Hackathon 2024.</p></br>
+                    <p>Our mission is to revolutionize healthcare by providing a secure, centralized, and AI-powered
+                        platform for managing health records.</p></br>
+
+                    <p>Security First We prioritize the security and privacy of your health data above all else.</p>
+                    </br>
+
+                    <p>Patient-Centric Every feature we build focuses on improving patient care and experience.</p></br>
+
+                    Innovation We continuously innovate to bring the latest technology to healthcare.
+                    </br>
+                    Our Story HealthSync emerged from a simple yet powerful idea: healthcare data should be easily
+                    accessible to patients while remaining completely secure. Our team of healthcare professionals and
+                    technology experts came together to create a platform that bridges the gap between patients and
+                    their health information.</p>
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>How HealthSync Works Your journey to better health management starts here</li>
+                        <li>Sign Up with Aadhaar Link your Aadhaar card to create a secure account that verifies your
+                            identity.</li>
+                        <li>Centralize Your Health Records Upload and manage all your medical records in one secure
+                            location.</li>
+                        <li>Secure Data Sharing Share your records with healthcare providers securely and efficiently.
+                        </li>
+                        <li>Real-Time Health Insights Get AI-driven health insights and personalized alerts based on
+                            your health data.</li>
+                        <li>Continuous Monitoring Connect IoT devices for real-time health data tracking and analysis.
+                        </li>
+                        <li>Patient data management and tracking</li>
+                        <li>Appointment scheduling system</li>
+                        <li>Medical history records</li>
+                        <li>Real-time notifications</li>
+                    </ul>
+                    <h3>Technologies Used</h3>
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Express.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="disaster-relief-popup">
+            <div class="popup-content">
+                <span class="close-popup">&times;</span>
+                <h2>Disaster Relief Management</h2>
+                <video src="assets/DisasterRelief.mp4" alt="Disaster Relief Project" muted loop autoplay></video>
+                <div class="popup-details">
+                    <h3>Project Overview</h3>
+                    <p>A disaster management platform developed during IIIT Naya Raipur E-Summit 2025 Hackathon,
+                        focusing on emergency response coordination.</p>
+                    <p> Features include disaster location mapping, live location tracking, emergency
+                        communication, and volunteer-victim support systems.</p>
+
+                    <h3>Problem Statement</h3>
+                    <ul>
+                        <li>Delayed Coordination: Relief efforts are slow due to communication gaps.</li>
+                        <li>Inefficient Resource Allocation: Supplies do not reach the right people on time.</li>
+                        <li>Lack of Real-Time Information: Volunteers & NGOs lack precise data on immediate needs.</li>
+
+                    </ul>
+                    <h3>Our Solution</h3>
+                    <ul>
+                        <li>Real-Time Tracking: Live geolocation updates for effective coordination.</li>
+                        <li>Integrated Platform: Unifies NGOs, government agencies, and volunteers.</li>
+                        <li>Smart Resource Allocation: AI-based predictions for efficient aid distribution.</li>
+
+                    </ul>
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Victim Dashboard: Request aid, track disaster zones, receive notifications.</li>
+                        <li>Volunteer Dashboard: Live location sharing, team coordination, and notifications.</li>
+                        <li>Real-time disaster location mapping</li>
+                        <li>Live location tracking</li>
+                        <li>Emergency communication system</li>
+                        <li>Volunteer-victim coordination</li>
+                    </ul>
+                    <h3>Technologies Used</h3>
+                    <div class="tech-stack">
+                        <span>Typescript</span>
+                        <span>Firebase</span>
+                        <span>Maps API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="infinity-manager-popup">
+            <div class="popup-content">
+                <span class="close-popup">&times;</span>
+                <h2>Infinity Manager</h2>
+                <img src="assets/infinitymanager.png" alt="Infinity Manager Project">
+                <div class="popup-details">
+                    <h3>Project Overview</h3>
+                    <p> Infitymanager – Infinity Esports Tournament Manager Infitymanager is a complete web-based
+                        tournament management platform built for Infinity Esports, the official gaming club of [Rungta
+                        college of engineering and technology ]. It simplifies weekly tournament organization for
+                        popular games like Free Fire, BGMI, Valorant, and Call of Duty by allowing game-wise point
+                        configuration, player/team registration, automated leaderboard generation, and export features.
+                    </p></br>
+                    <p>A tournament management platform for Infinity Esports gaming club at Rungta College, handling
+                        multiple game tournaments.</p>
+                    <p>
+                    <p>It simplifies weekly tournament organization for popular games like Free Fire,
+                        BGMI, Valorant, and Call of Duty by allowing game-wise point configuration, player/team
+                        registration,
+                        automated leaderboard generation,
+                        and export features.</p>
+                    </p>
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>🎮 Game Selection System (Free Fire, BGMI, COD, Valorant)</li>
+                        <li>⚙️ Game-wise Point Configuration</li>
+                        <li>🏆 Auto Leaderboard Calculation</li>
+                        <li>📊 Match Result Entry</li>
+                        <li>Game-wise point configuration</li>
+                        <li>🔄 Game-specific Flows</li>
+                        <li>Player/team registration</li>
+                        <li>Automated leaderboard generation</li>
+                        <li>Tournament data export</li>
+                    </ul>
+                    <h3>Technologies Used</h3>
+                    <div class="tech-stack">
+                        <span>TypeScript</span>
+                        <span>CSS</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js" type="module"></script>
+</body>
+
+</html>
