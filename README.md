@@ -17,12 +17,19 @@ This site showcases my skills, projects, and journey as a web developer.
 ## 📁 Project Structure
 
 📦 portfolio/
+
 ├── 📄 index.html
+
 ├── 📁 css/
-│ └── styles.css
+
+└── styles.css
+
 ├── 📁 js/
-│ └── script.js
+
+└── script.js
+
 └── 📁 assets/
+
 └── images, icons, etc.
 
 
@@ -51,6 +58,6 @@ Scroll effects and section highlights
 📬 Contact
 Feel free to reach out for collaborations or feedback!
 
-📧 Email: your-email@example.com
-💼 LinkedIn: Your LinkedIn Profile
+📧 Email: sumitkumar042006@gmail.com </br>
+💼 LinkedIn: https://www.linkedin.com/in/sumit-kumar-685954329/
 
